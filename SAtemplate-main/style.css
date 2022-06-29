@@ -1,0 +1,61 @@
+h1 {
+    color: white;
+  }
+  
+  P{color: aqua}
+  
+  .header{
+    background-color: cadetblue;
+    display:flex;
+    justify-content: center
+  
+  }
+  .grid{display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;}
+  
+  .footer{
+    background-color:darksalmon
+  }
+  
+  p,h2{
+    text-align: center;
+  }
+  
+  body{
+    background-image: url("bg2.jpg");
+    
+  }
+  
+  
+  .footer{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .item p{
+   
+    opacity:0;
+  }
+  
+  .item:hover p{
+    opacity: 1;
+  }
+  
+  .item:hover img{
+    opacity: 0.33;
+  } 
+ 
+  a:link{
+    background-color: aqua;
+  }
+  a:hover{
+   
+   background-color: yellow
+  }
+  a:visited{
+    background-color: blueviolet;
+  }
+  
+
+  
